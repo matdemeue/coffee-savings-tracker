@@ -25,7 +25,7 @@ export default function Home() {
         <div className="row">
           <div className="col-12">
             <h1>Coffee Savings Tracker!</h1>
-            <h2>Sinds {data.startdagsstring} zijn er {calculateCoffeeSavingsDays()} dagen voorbij! <br/> Dit bespaarde mij voorlopig {calculateCoffeeSavingsDays() * KOFFIETJESBEDRAG} euro!</h2>
+            <h2>Sinds {data.startdagsstring} zijn er <br/> {calculateCoffeeSavingsDays()} dagen voorbij! <br/> Dit bespaarde mij voorlopig {(calculateCoffeeSavingsDays() * KOFFIETJESBEDRAG).toFixed(2)} euro!</h2>
           </div>
         </div>
       </main>
