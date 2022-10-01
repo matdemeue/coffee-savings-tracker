@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="description" content="My personal coffee savings tracker." />
       </Head>
 
-      <main className="container pt-5 coffee">
+      <main className="container pt-3 coffee">
         <div className="row">
           <div className="col-12">
             <h1>Coffee Savings Tracker!</h1>
